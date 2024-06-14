@@ -1,0 +1,36 @@
+nav .buttons::before {
+    left: 49%;
+}
+
+nav .buttons .drop-menu {
+    left: initial;
+    right: 0;
+}
+.services .row-2 div .main-title {
+    font-size: 20px;
+}
+.services .row-2 .one {
+    left: 10vw;
+}
+.services .row-2 .three {
+    left: 15vw;
+}
+.services .row-2 .eleven {
+    left: 15vw;
+    top: 158vw;
+}
+.services .row-2 .twelve {
+    right: 10vw;
+    top: 177vw;
+}
+.services .row-2 {
+    background: url(../IMGS/sliderenglish/1200..svg) no-repeat center center/cover;
+}
+
+@media (max-width: 768px) {
+    .banner .title {
+        padding: 0 0 0 30px;
+        font-size: 18px;
+        text-align: left;
+    }
+}
