@@ -8,13 +8,17 @@
             integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
             crossorigin="anonymous"
             referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
 
-        <link rel="stylesheet" href="../CSS/main.css" />
+        <link
+            rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" /></noscript>
+
+        <link rel="stylesheet" href="../assets/CSS/main.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>مسار رحلة المسافرين</title>
+        <title>مسافروں کے سفر کا راستہ</title>
     </head>
 
     <body>
@@ -22,7 +26,7 @@
         <nav>
             <div class="buttons">
                 <div class="button">
-                    <span class="title">مسار الرحلات</span>
+                    <span class="title">پرواز کا راستہ</span>
                 </div>
                 <div class="button wahed-click" style="cursor: pointer">
                     <i style="margin-left: 5px" class="fa-solid fa-language"></i>
@@ -33,15 +37,15 @@
                     <a href="../" class="active">عربي</a>
                     <a href="../en/">EN</a>
                     <a href="../fr/">FR</a>
-                    <a class="active" href="../ardo/">آردو</a>
-                    <a href="../mal/">مالاوي </a>
+                    <a class="active" href="../ardu/">آردو</a>
+                    <a href="../mal/">Malay </a>
                 </div>
             </div>
             <div class="logos">
-                <img src="../IMGS/لوجوهات-22.svg" alt="logo" />
-                <img src="../IMGS/لوجوهات-21.svg" alt="logo" />
-                <img src="../IMGS/لوجوهات-20.svg" alt="logo" />
-                <img src="../IMGS/لوجوهات-19.svg" alt="logo" />
+                <img src="../assets/IMGS/لوجوهات-22.svg" alt="logo" />
+                <img src="../assets/IMGS/لوجوهات-21.svg" alt="logo" />
+                <img src="../assets/IMGS/لوجوهات-20.svg" alt="logo" />
+                <img src="../assets/IMGS/لوجوهات-19.svg" alt="logo" />
             </div>
         </nav>
         <!-- NAVBAR -->
@@ -49,9 +53,9 @@
         <!-- BANNER -->
         <section class="banner">
             <div class="title">
-                <p>نصائح وإرشادات لرحلة المغادرة</p>
-                <p>عبر مطار الملك عبد العزيز</p>
-                <a href="../#services">تعرف اكثر</a>
+                <p>آپ کی روانگی کی پرواز کے لیے سفری تجاویز اور رہنمائی</p>
+                <p>کنگ عبد العزیز انٹرنیشنل ائیرپورٹ کے ذریعے</p>
+                <a href="../#services">زیادہ جان لیں</a>
             </div>
         </section>
         <!-- BANNER -->
@@ -60,34 +64,34 @@
         <section class="services">
             <div class="row-2" id="services">
                 <div class="one wahed-box" data-target="popup1">
-                    <div class="read-more">أقرأ المزيد <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">زیادہ پڑھیں <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="two wahed-box" data-target="popup2">
-                    <div class="read-more">أقرأ المزيد <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">زیادہ پڑھیں <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="three wahed-box" data-target="popup3">
-                    <div class="read-more">أقرأ المزيد <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">زیادہ پڑھیں <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="four wahed-box" data-target="popup4">
-                    <div class="read-more">أقرأ المزيد <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">زیادہ پڑھیں <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="five wahed-box" data-target="popup5">
-                    <div class="read-more">أقرأ المزيد <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">زیادہ پڑھیں <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="six wahed-box" data-target="popup6">
-                    <div class="read-more">أقرأ المزيد <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">زیادہ پڑھیں <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="nine wahed-box" data-target="popup9">
-                    <div class="read-more">أقرأ المزيد <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">زیادہ پڑھیں <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="ten wahed-box" data-target="popup10">
-                    <div class="read-more">أقرأ المزيد <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">زیادہ پڑھیں <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="eleven wahed-box" data-target="popup11">
-                    <div class="read-more">أقرأ المزيد <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">زیادہ پڑھیں <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="twelve wahed-box" data-target="popup12">
-                    <div class="read-more">أقرأ المزيد <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">زیادہ پڑھیں <i class="fa-solid fa-angles-down"></i></div>
                 </div>
             </div>
         </section>
@@ -97,44 +101,44 @@
         <div id="popup1" class="popup">
             <span class="close">&times;</span>
             <div class="content">
-                <img src="../IMGS/sliderarabic/1.png" alt="img" />
+                <img src="../assets/IMGS/sliderarabic/1.png" alt="img" />
             </div>
         </div>
         <div id="popup2" class="popup">
             <span class="close">&times;</span>
             <div class="content">
-                <img src="../IMGS/popups_arabic/1.png" alt="img" />
+                <img src="../assets/IMGS/popups_arabic/1.png" alt="img" />
             </div>
         </div>
         <div id="popup3" class="popup">
             <span class="close">&times;</span>
             <div class="content">
-                <img src="../IMGS/popups_arabic/2.png" alt="img" />
+                <img src="../assets/IMGS/popups_arabic/2.png" alt="img" />
             </div>
         </div>
         <div id="popup4" class="popup">
             <span class="close">&times;</span>
             <div class="content">
-                <img src="../IMGS/popups_arabic/3.png" alt="img" />
+                <img src="../assets/IMGS/popups_arabic/3.png" alt="img" />
             </div>
         </div>
         <div id="popup5" class="popup">
             <span class="close">&times;</span>
             <div class="content">
-                <img src="../IMGS/popups_arabic/4.png" alt="img" />
+                <img src="../assets/IMGS/popups_arabic/4.png" alt="img" />
             </div>
         </div>
         <div id="popup6" class="popup">
             <span class="close">&times;</span>
             <div class="content">
-                <img src="../IMGS/popups_arabic/5.png" alt="img" />
+                <img src="../assets/IMGS/popups_arabic/5.png" alt="img" />
             </div>
         </div>
         <div id="popup9" class="popup">
             <span class="close">&times;</span>
             <div class="content">
                 <a href="../https://2h.ae/OcVQ" style="width: 100%; height: 100%">
-                    <img src="../IMGS/popups_arabic/8.png" alt="img" style="width: 100%; height: 100%" />
+                    <img src="../assets/IMGS/popups_arabic/8.png" alt="img" style="width: 100%; height: 100%" />
                 </a>
             </div>
         </div>
@@ -142,25 +146,25 @@
         <div id="popup9" class="popup">
             <span class="close">&times;</span>
             <div class="content">
-                <img src="../IMGS/popups_arabic/9.png" alt="img" />
+                <img src="../assets/IMGS/popups_arabic/9.png" alt="img" />
             </div>
         </div>
         <div id="popup10" class="popup">
             <span class="close">&times;</span>
             <div class="content">
-                <img src="../IMGS/popups_arabic/9.png" alt="img" />
+                <img src="../assets/IMGS/popups_arabic/9.png" alt="img" />
             </div>
         </div>
         <div id="popup11" class="popup">
             <span class="close">&times;</span>
             <div class="content">
-                <img src="../IMGS/popups_arabic/10.png" alt="img" />
+                <img src="../assets/IMGS/popups_arabic/10.png" alt="img" />
             </div>
         </div>
         <div id="popup12" class="popup">
             <span class="close">&times;</span>
             <div class="content">
-                <img src="../IMGS/popups_arabic/11.png" alt="img" />
+                <img src="../assets/IMGS/popups_arabic/11.png" alt="img" />
             </div>
         </div>
 
@@ -177,7 +181,7 @@
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <span class="title">موقع الصالة (T1)</span>
+                <span class="title">ٹرمینل T1 کا موقع</span>
             </div>
             <div class="box">
                 <iframe
@@ -188,7 +192,7 @@
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <span class="title">موقع الصالة الشمالية (N)</span>
+                <span class="title">شمالی ٹرمینل کا موقع</span>
             </div>
             <div class="box">
                 <iframe
@@ -199,7 +203,7 @@
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <span class="title">صالات الحج و العمرة</span>
+                <span class="title">حج وعمرہ کے ٹرمینلز </span>
             </div>
         </section>
         <!-- MAPS -->
@@ -208,22 +212,22 @@
         <section class="socail-media">
             <div>
                 <a href="../https://www.facebook.com/kaiairport1?mibextid=LQQJ4d">
-                    <img src="../IMGS/links/facebook.png" alt="icon" />
+                    <img src="../assets/IMGS/links/facebook.png" alt="icon" />
                 </a>
                 <a href="../https://www.tiktok.com/@kaiairport">
-                    <img src="../IMGS/links/tiktok.png" alt="icon" />
+                    <img src="../assets/IMGS/links/tiktok.png" alt="icon" />
                 </a>
                 <a href="../https://snapchat.com/t/euoWVf3L">
-                    <img src="../IMGS/links/snapchat.png" alt="icon" />
+                    <img src="../assets/IMGS/links/snapchat.png" alt="icon" />
                 </a>
                 <a href="../https://x.com/kaiairport?s=21&t=BNGyzp4hx9sHpkRqvLvZ5A">
-                    <img src="../IMGS/links/twitter.png" alt="icon" />
+                    <img src="../assets/IMGS/links/twitter.png" alt="icon" />
                 </a>
                 <a href="../https://www.instagram.com/kaiairport1/?igsh=MW5ieWpsNjFvN3VjMw%3D%3D">
-                    <img src="../IMGS/links/instagram.png" alt="icon" />
+                    <img src="../assets/IMGS/links/instagram.png" alt="icon" />
                 </a>
                 <a href="../https://www.youtube.com/@kaiairport?si=rTe61yc4UW0W-SE9">
-                    <img src="../IMGS/links/youtube.png" alt="icon" />
+                    <img src="../assets/IMGS/links/youtube.png" alt="icon" />
                 </a>
             </div>
         </section>
@@ -231,13 +235,13 @@
 
         <!-- LOGOS -->
         <section class="logos">
-            <img src="../IMGS/لوجوهات-19.svg" alt="logo" />
-            <img src="../IMGS/لوجوهات-20.svg" alt="logo" />
-            <img src="../IMGS/لوجوهات-21.svg" alt="logo" />
-            <img src="../IMGS/لوجوهات-22.svg" alt="logo" />
+            <img src="../assets/IMGS/لوجوهات-19.svg" alt="logo" />
+            <img src="../assets/IMGS/لوجوهات-20.svg" alt="logo" />
+            <img src="../assets/IMGS/لوجوهات-21.svg" alt="logo" />
+            <img src="../assets/IMGS/لوجوهات-22.svg" alt="logo" />
         </section>
         <!-- LOGOS -->
 
-        <script src="../JS/main.js"></script>
+        <script src="../assets/JS/main.js"></script>
     </body>
 </html>
