@@ -23,9 +23,6 @@ nav .buttons .drop-menu {
     right: 10vw;
     top: 177vw;
 }
-.services .row-2 {
-    background: url(../IMGS/sliderenglish/1200..svg) no-repeat center center/cover;
-}
 
 @media (max-width: 768px) {
     .banner .title {
