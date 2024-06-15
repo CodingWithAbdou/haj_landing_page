@@ -10,7 +10,6 @@ body {
     scroll-behavior: smooth;
 }
 nav {
-    height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,8 +73,8 @@ nav .logos {
     gap: 20px;
 }
 nav .logos img {
-    width: 80px;
-    height: 50px;
+    width: 120px;
+    height: 80px;
     object-fit: cover;
 }
 .banner {
@@ -304,7 +303,7 @@ nav .logos img {
     }
 
     nav .buttons .button {
-        font-size: 10px;
+        /* font-size: 10px; */
     }
 }
 .logos {
@@ -372,7 +371,7 @@ nav .logos img {
         padding: 50px;
     }
     nav .logos img {
-        width: 40px;
+        width: 100px;
     }
 }
 
@@ -383,7 +382,6 @@ nav .logos img {
 }
 @media (max-width: 550px) {
     nav {
-        height: 100px;
         flex-direction: column;
     }
     nav .buttons {
@@ -398,7 +396,7 @@ nav .logos img {
         justify-content: space-around;
     }
     nav .logos img {
-        width: 50px;
+        width: 100px;
     }
     .banner .title {
         font-size: 26px;
