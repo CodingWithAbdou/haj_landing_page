@@ -2,24 +2,67 @@
 <html lang="EN">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- fonts awesom -->
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
             integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
             crossorigin="anonymous"
             referrerpolicy="no-referrer" />
-
-        <link
-            rel="preload"
-            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" /></noscript>
-
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+        <!-- custom css -->
         <link rel="stylesheet" href="../assets/CSS/main.css" />
-        <link rel="stylesheet" href="../assets/CSS/main-ltr.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>مسار رحلة المسافري</title>
+        <style>
+            .banner {
+                background: url(../assets/IMGS/banner.png) no-repeat center center/cover;
+            }
+            .services {
+                background: url(../assets/IMGS/background-17.svg) no-repeat center center/cover;
+            }
+            @media (max-width: 768px) {
+                .banner {
+                    background: url(../assets/IMGS/bannar_small.png) no-repeat center center/cover;
+                }
+            }
+            nav .buttons::before {
+                left: 49%;
+            }
+
+            nav .buttons .drop-menu {
+                left: initial;
+                right: 0;
+            }
+            .services .row-2 div .main-title {
+                font-size: 20px;
+            }
+            .services .row-2 .one {
+                left: 10vw;
+            }
+            .services .row-2 .three {
+                left: 15vw;
+            }
+            .services .row-2 .eleven {
+                left: 15vw;
+                top: 158vw;
+            }
+            .services .row-2 .twelve {
+                right: 10vw;
+                top: 177vw;
+            }
+
+            @media (max-width: 768px) {
+                .banner .title {
+                    padding: 0 0 0 30px;
+                    font-size: 18px;
+                    text-align: left;
+                }
+            }
+        </style>
+        <title>Jadualperjalananpengembara</title>
     </head>
 
     <body>
@@ -28,7 +71,7 @@
             <div class="buttons">
                 <div class="button wahed-click" style="cursor: pointer">
                     <i style="margin-right: 5px; font-size: 28px" class="fa-solid fa-language"></i>
-                    <span class="lang">Lang: <span style="color: #fff"> Malay</span></span>
+                    <span class="lang">Lang: <span style="color: #fff"> Melayu</span></span>
                     <i style="color: #60aadf; font-size: 10px; margin-right: 5px; margin-left: 5px; font-weight: bolder" class="fa-solid fa-chevron-down"></i>
                 </div>
                 <div class="drop-menu">
@@ -36,7 +79,7 @@
                     <a class="" href="../en/">EN</a>
                     <a href="../fr/">FR</a>
                     <a href="../ardu/">آردو</a>
-                    <a class="active" href="../mal/">Malay</a>
+                    <a class="active" href="../mal/">Melayu</a>
                 </div>
             </div>
             <div class="logos">
@@ -50,9 +93,9 @@
         <!-- BANNER -->
         <section class="banner">
             <div class="title">
-                <p>Tips and Guidance for Departing Travelers</p>
-                <p>at King Abdulaziz International Airport</p>
-                <a href="#services" target="_parent">know more</a>
+                <p>Petuadanarahanuntukpenerbanganberlepas</p>
+                <p>melaluiLapanganTerbang Raja Abdulaziz</p>
+                <a href="#services" target="_parent">Mengetahuilebihlanjut</a>
             </div>
         </section>
         <!-- BANNER -->
@@ -61,34 +104,34 @@
         <section class="services">
             <div class="row-2" id="services" style="background: url(../assets/IMGS/slidermalay/1200.svg) no-repeat center center/cover">
                 <div class="one wahed-box" data-target="popup1">
-                    <div class="read-more">Read More <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">Baca lagi <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="two wahed-box" data-target="popup2">
-                    <div class="read-more">Read More <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">Baca lagi <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="three wahed-box" data-target="popup3">
-                    <div class="read-more">Read More <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">Baca lagi <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="four wahed-box" data-target="popup4">
-                    <div class="read-more">Read More <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">Baca lagi <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="five wahed-box" data-target="popup5">
-                    <div class="read-more">Read More <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">Baca lagi <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="six wahed-box" data-target="popup6">
-                    <div class="read-more">Read More <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">Baca lagi <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="nine wahed-box" data-target="popup9">
-                    <div class="read-more">Read More <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">Baca lagi <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="ten wahed-box" data-target="popup10">
-                    <div class="read-more">Read More <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">Baca lagi <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="eleven wahed-box" data-target="popup11">
-                    <div class="read-more">Read More <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">Baca lagi <i class="fa-solid fa-angles-down"></i></div>
                 </div>
                 <div class="twelve wahed-box" data-target="popup12">
-                    <div class="read-more">Read More <i class="fa-solid fa-angles-down"></i></div>
+                    <div class="read-more">Baca lagi <i class="fa-solid fa-angles-down"></i></div>
                 </div>
             </div>
         </section>
@@ -171,7 +214,7 @@
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <span class="title">Terminal 1 (T1)</span>
+                <span class="title">Lokasi terminal T1</span>
             </div>
             <div class="box">
                 <iframe
@@ -182,7 +225,7 @@
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <span class="title">North Terminal (N)</span>
+                <span class="title">Lokasi Terminal utara</span>
             </div>
             <div class="box">
                 <iframe
@@ -193,7 +236,7 @@
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <span class="title">Hajj and Umrah Terminals (H)</span>
+                <span class="title">Terminal Haji (ziarahbesar) danUmrah (ziarahkecil)</span>
             </div>
         </section>
         <!-- MAPS -->

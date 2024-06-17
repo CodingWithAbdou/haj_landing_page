@@ -78,8 +78,8 @@ nav .logos img {
     object-fit: cover;
 }
 .banner {
-    background: url(../IMGS/بانر\ بدون\ كلام-01.svg) no-repeat center center/cover;
-    height: calc(100vh - 60px);
+    /* background: url(../IMGS/banner.png) no-repeat center center/cover; */
+    height: calc(100vh - 120px);
     position: relative;
 }
 .banner .title {
@@ -98,6 +98,7 @@ nav .logos img {
 }
 .banner .title a {
     color: #fff;
+    display: inline-block;
     font-size: 22px;
     background-color: #65b2e8;
     border: none;
@@ -112,7 +113,7 @@ nav .logos img {
 }
 
 .services {
-    background: url(../IMGS/background-17.svg) no-repeat center center/cover;
+    /* background: url(../IMGS/background-17.svg) no-repeat center center/cover; */
     padding: 50px 0;
     height: 100%;
 }
@@ -334,7 +335,7 @@ nav .logos img {
         padding: 0 10px;
     }
     .banner {
-        background: url(../IMGS/banner-small.png) no-repeat center center/cover;
+        /* background: url(../IMGS/bannar_small.png) no-repeat center center/cover; */
         position: relative;
     }
     .banner::before {

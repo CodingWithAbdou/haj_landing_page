@@ -2,6 +2,8 @@
 <html lang="ar" dir="rtl">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- font awesom -->
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -9,15 +11,26 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer" />
 
-        <link
-            rel="preload"
-            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" /></noscript>
-
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+        <!-- file css -->
         <link rel="stylesheet" href="../assets/CSS/main.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            .banner {
+                background: url(../assets/IMGS/banner.png) no-repeat center center/cover;
+            }
+            .services {
+                background: url(../assets/IMGS/background-17.svg) no-repeat center center/cover;
+            }
+            @media (max-width: 768px) {
+                .banner {
+                    background: url(../assets/IMGS/bannar_small.png) no-repeat center center/cover;
+                }
+            }
+        </style>
+
         <title>مسافروں کے سفر کا راستہ</title>
     </head>
 
@@ -35,7 +48,7 @@
                     <a href="../en/">EN</a>
                     <a href="../fr/">FR</a>
                     <a class="active" href="../ardu/">آردو</a>
-                    <a href="../mal/">Malay </a>
+                    <a href="../mal/">Melayu </a>
                 </div>
             </div>
             <div class="logos">

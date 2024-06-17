@@ -2,23 +2,67 @@
 <html lang="EN">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- fonts awesom -->
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
             integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
             crossorigin="anonymous"
             referrerpolicy="no-referrer" />
-
-        <link
-            rel="preload"
-            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-            as="style"
-            onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" /></noscript>
-
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+        <!-- custom css -->
         <link rel="stylesheet" href="../assets/CSS/main.css" />
-        <link rel="stylesheet" href="../assets/CSS/main-ltr.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            .banner {
+                background: url(../assets/IMGS/banner.png) no-repeat center center/cover;
+            }
+            .services {
+                background: url(../assets/IMGS/background-17.svg) no-repeat center center/cover;
+            }
+            @media (max-width: 768px) {
+                .banner {
+                    background: url(../assets/IMGS/bannar_small.png) no-repeat center center/cover;
+                }
+            }
+            nav .buttons::before {
+                left: 49%;
+            }
+
+            nav .buttons .drop-menu {
+                left: initial;
+                right: 0;
+            }
+            .services .row-2 div .main-title {
+                font-size: 20px;
+            }
+            .services .row-2 .one {
+                left: 10vw;
+            }
+            .services .row-2 .three {
+                left: 15vw;
+            }
+            .services .row-2 .eleven {
+                left: 15vw;
+                top: 158vw;
+            }
+            .services .row-2 .twelve {
+                right: 10vw;
+                top: 177vw;
+            }
+
+            @media (max-width: 768px) {
+                .banner .title {
+                    padding: 0 0 0 30px;
+                    font-size: 18px;
+                    text-align: left;
+                }
+            }
+        </style>
+
         <title>Travelers' itinerary</title>
     </head>
 
@@ -36,7 +80,7 @@
                     <a class="active" href="../en/">EN</a>
                     <a href="../fr/">FR</a>
                     <a href="../ardu/">آردو</a>
-                    <a href="../mal/">Malay</a>
+                    <a href="../mal/">Melayu</a>
                 </div>
             </div>
             <div class="logos">
