@@ -3,6 +3,14 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            http-equiv="Content-Security-Policy"
+            content="
+        script-src 'strict-dynamic' 'nonce-te23421tesa98db973kwl8xp1lz94kjf0bma5pe' 'unsafe-inline' http: https:;
+        object-src 'none';
+        base-uri 'none';
+        require-trusted-types-for 'script';
+                            " />
         <!-- fonts awesom -->
         <link
             rel="stylesheet"
@@ -273,6 +281,6 @@
         </section>
         <!-- LOGOS -->
 
-        <script src="../assets/JS/main.js"></script>
+        <script src="../assets/JS/main.js" nonce="te23421tesa98db973kwl8xp1lz94kjf0bma5pe"></script>
     </body>
 </html>
